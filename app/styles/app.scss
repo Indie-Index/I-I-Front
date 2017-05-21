@@ -1,2 +1,11 @@
 @import 'bootstrap';
 @import 'bootstrap/theme';
+
+.otto-bar {
+  list-style-type: none;
+}
+
+.otto-bar-cotent {
+  float: left;
+  margin: 0 5px auto;
+}
