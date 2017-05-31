@@ -35,5 +35,15 @@ export default Ember.Route.extend({
 
       return false;
     },
+    cancel() {
+      console.log('otto.js');
+      history.back();
+    },
+    saveArticle(article){
+      article.save()
+      .then(()=>this.transitionTo('otto'))
+      .then(()=>this.get('flashMessages')
+    .success("article successfully saved"));
+    }
   },
 });
