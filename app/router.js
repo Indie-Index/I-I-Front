@@ -14,6 +14,7 @@ Router.map(function () {
   this.route('change-password');
   this.route('users');
 
+  this.route('articles.index');
 });
 
 export default Router;
