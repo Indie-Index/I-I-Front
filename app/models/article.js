@@ -5,5 +5,4 @@ export default DS.Model.extend({
   overview: DS.attr('string'),
   body: DS.attr('string'),
   created_at: DS.attr('datetime'),
-  user_id: DS.attr('integer')
 });
